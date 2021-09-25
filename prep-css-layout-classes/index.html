@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    h3,
+    p {
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+  <div class = "container">
+    <div class = "row">
+      <div class = "column">
+        <img src="images/raiders.jpg">
+        <h3>Raiders of the Lost Ark</h3>
+        <p>The start of an epic journey directed by <a href = "https://en.wikipedia.org/wiki/Steven_Spielberg" alt = "Steven Spielberg">Steven Spielberg</a>
+          and starred by <a href = "https://en.wikipedia.org/wiki/Harrison_Ford">Harrison Ford</a> as Indiana Jones. Jones is tasked by the
+          army with finding the Ark of the Covenant before Hitler, as he believes
+          it can make his army invincible.</p>
+      </div>
+      <div class = "column">
+        <img src = "images/temple.jpg">
+        <h3>Temple of Doom</h3>
+          <p text-style= "cursive">A prequal to the award winning<a href = "https://en.wikipedia.org/wiki/Raiders_of_the_Lost_Ark" alt = "Raiders of the Lost Ark wiki link">
+            <i>Raiders of the Lost Ark</i></a>. After surviving several murder
+            attempts in 1935, Indiana Jones and his two companions find themselves
+            on a quest to find and return 5 Sankara stones that were stolen from
+            the mayapore village.</p>
+      </div>
+      <div class = "column">
+        <img src="images/crusade.jpg">
+        <h3>The Last Crusade</h3>
+        <p>The third and final installment to a trilogy that has touched many
+          hearts. Indiana Jones now searches for his missing father and the <a
+            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Findianajones%2Fimages%2Ff%2Ff1%2FHoly_Grail.jpg%2Frevision%2Flatest%3Fcb%3D20110317234056&imgrefurl=https%3A%2F%2Findianajones.fandom.com%2Fwiki%2FHoly_Grail&tbnid=Lda5dn23FVX9QM&vet=12ahUKEwjHw9Xas5nzAhWYlZ4KHWMAA7MQMygBegUIARDWAQ..i&docid=bSfsd8qc6HmitM&w=751&h=882&itg=1&q=holy%20grail%20from%20indiana%20jones&ved=2ahUKEwjHw9Xas5nzAhWYlZ4KHWMAA7MQMygBegUIARDWAQ"
+            alt="holy Grail photo">
+            Holy Grail</a>. in a breathtaking adventure around Europe.</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
