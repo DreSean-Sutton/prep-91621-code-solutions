@@ -58,8 +58,8 @@ var getFullNameResult = getFullName('Juan ', 'Ramirez');
 console.log('getFullName exercise:', getFullNameResult);
 
 function cube(number) {
-  return number * 5;
+  return number * number * number;
 }
 
-var cubeResult = cube(25);
+var cubeResult = cube(5);
 console.log('cube Exercise:', cubeResult);
